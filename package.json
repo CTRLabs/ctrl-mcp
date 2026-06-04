@@ -1,6 +1,6 @@
 {
   "name": "@ctrlabs/ctrl-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visual DeFi workflow automation MCP on Base + Ethereum mainnet.",
   "mcpName": "io.github.CTRLabs/ctrl-mcp",
   "homepage": "https://ctrl.build",

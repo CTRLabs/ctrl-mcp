@@ -3,7 +3,7 @@
   "name": "io.github.CTRLabs/ctrl-mcp",
   "title": "CTRL",
   "description": "Visual DeFi workflow automation on Base + Ethereum mainnet.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://ctrl.build",
   "repository": {
     "url": "https://github.com/CTRLabs/ctrl-mcp",
