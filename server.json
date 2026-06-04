@@ -13,7 +13,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://ctrl.build/api/mcp"
+      "url": "https://www.ctrl.build/api/mcp"
     }
   ]
 }
