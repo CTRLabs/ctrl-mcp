@@ -1,0 +1,31 @@
+{
+  "name": "@ctrlabs/ctrl-mcp",
+  "version": "1.0.0",
+  "description": "Visual DeFi workflow automation MCP on Base + Ethereum mainnet — sign once, an 8-wallet keeper executes from vault-direct V13 smart contracts forever, bounded by on-chain caps the user signed.",
+  "mcpName": "io.github.CTRLabs/ctrl-mcp",
+  "homepage": "https://ctrl.build",
+  "license": "MIT",
+  "author": "CTRLabs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CTRLabs/ctrl-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CTRLabs/ctrl-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "defi",
+    "base",
+    "ethereum",
+    "automation",
+    "agent",
+    "workflow",
+    "vault",
+    "ctrl",
+    "ai-agents",
+    "eip-5792"
+  ],
+  "private": true
+}

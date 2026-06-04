@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.CTRLabs/ctrl-mcp",
+  "title": "CTRL",
+  "description": "Visual DeFi workflow automation on Base + Ethereum mainnet. Compose triggers (cron, price, balance, pool.created for Clanker/Flaunch/Zora/BANKR, watch.whale) and actions (Uniswap V4 swaps, USDC payouts, Telegram/Discord notifications) on a canvas. User signs ONCE via EIP-5792; an 8-wallet keeper executes from vault-direct V13 smart contracts forever, bounded by per-swap and per-day caps. No session keys, no delegated approvals.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ctrl.build",
+  "repository": {
+    "url": "https://github.com/CTRLabs/ctrl-mcp",
+    "source": "github",
+    "id": "1257701021"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ctrl.build/api/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional Bearer sk_ctrl_... — mint at https://ctrl.build/settings/api-keys for higher rate limits. The REST + MCP paths are also anonymous-friendly (security boundary is the wallet signature at activate-time, not the API key)."
+        }
+      ]
+    }
+  ]
+}
