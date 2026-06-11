@@ -39,7 +39,7 @@ mint a key at [ctrl.build/settings/api-keys](https://ctrl.build/settings/api-key
 
 ## what your agent gets
 
-six tools. that's it.
+seven tools. that's it.
 
 | tool | what it does |
 |---|---|
@@ -47,12 +47,13 @@ six tools. that's it.
 | `ctrl_get_block_catalog` | live list of every block + field schema |
 | `ctrl_create_workflow` | assemble + save a workflow draft from a prompt |
 | `ctrl_activate` | encode the eip-5792 batch the user signs to deploy |
+| `ctrl_withdraw` | encode the batch to pull funds out of the vault back to the user's wallet (eth, weth, or any erc-20) |
 | `ctrl_fire_manual` | fire a workflow once for testing — no waiting |
 | `ctrl_get_execution_logs` | basescan tx hashes, gas, status — keeper history |
 
-## 23 blocks under the hood
+## 24 blocks under the hood
 
-**triggers** — `time.interval`, `trigger.manual`, `price.above/below/change`, `pool.created` (clanker / flaunch / zora / bankr), `watch.whale`, `event.transfer`, `event.balance`
+**triggers** — `time.interval`, `trigger.manual`, `price.above/below/change`, `pool.created` (clanker / flaunch / zora / bankr), `watch.whale`, `event.transfer`, `event.balance`, `trending.token`
 
 **actions** — `cypher.swap`, `read.balance`, `notify.telegram`, `notify.discord`, `util.webhook`
 
