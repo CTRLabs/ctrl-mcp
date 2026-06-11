@@ -84,7 +84,7 @@ vault-direct model. agent never holds keys.
 
 verified contracts on base:
 - v13 vault factory — [0x5Df25e79efd7f9dc86841b404b3EA6F4b7951DBB](https://basescan.org/address/0x5Df25e79efd7f9dc86841b404b3EA6F4b7951DBB)
-- vault implementation — [0x48d16fe4d11499E6714840e101943F0f2FDacB5a](https://basescan.org/address/0x48d16fe4d11499E6714840e101943F0f2FDacB5a)
+- vault implementation — [0xc98137a6df7fb91ab91b568bf923490a278aa702](https://basescan.org/address/0xc98137a6df7fb91ab91b568bf923490a278aa702)
 - timelock beacon — [0x5760A6D62743860F27843fA314E22166dBEF7d73](https://basescan.org/address/0x5760A6D62743860F27843fA314E22166dBEF7d73)
 
 ## ecosystem
